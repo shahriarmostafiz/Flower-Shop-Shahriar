@@ -1,8 +1,36 @@
+/* shared styles  */
 * {
   margin: 0;
   padding: 0;
   font-family: Lato;
 }
+
+.heading {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 24px 0;
+}
+.sub-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+
+.primary-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+}
+
+/* banner starts here  */
 .banner {
   display: flex;
   justify-content: space-around;
@@ -33,15 +61,7 @@
   font-weight: 400;
   padding: 32px 0;
 }
-.primary-btn {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 20px 43px;
-  border-radius: 8px;
-  background: #e55473;
-  border: none;
-}
+
 /* featured section here  */
 .featured {
   margin: 150px 0;
@@ -51,21 +71,8 @@
   width: 30%;
   margin: 0 auto;
 }
-.heading {
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-  padding: 24px 0;
-}
-.sub-text {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  padding-bottom: 24px;
-}
-.featured-box {
+
+.doms {
   display: flex;
   justify-content: space-around;
   gap: 24px;
@@ -89,4 +96,48 @@
 }
 .box-3 {
   background: rgba(71, 125, 17, 0.15);
+}
+.dom-titles {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 32px auto;
+  text-align: center;
+}
+.dom-text {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* sale section here  */
+.sale {
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 180px;
+  padding: 100px 0;
+}
+.sale-text {
+  text-align: center;
+  width: 33%;
+}
+
+/* instagram section here  */
+.instagram {
+  /* display: flex; */
+  margin: 128px 0;
+}
+.insta-title {
+  width: 31%;
+  text-align: center;
+  margin: 0 auto;
+}
+.insta-photos {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 24px;
 }
