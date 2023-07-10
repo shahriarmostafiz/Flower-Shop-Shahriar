@@ -1,25 +1,92 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: Lato;
 }
-
-/* banner section style here  */
 .banner {
-  background: rgba(229, 84, 115, 0.1);
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 95px;
-  height: 100vh;
-  padding: 50px;
-}
-.banner-text {
   padding-left: 240px;
-  width: 50%;
+  padding-right: 240px;
+  padding-top: 50px;
+  background-color: rgba(229, 84, 115, 0.1);
+  /* height: 100vh; */
 }
 .banner-photo {
-  width: 100%;
-  padding-left: 240px;
+  width: 50%;
+  display: flex;
+  align-items: end;
+}
+
+.banner-text {
+  width: 50%;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 32px 0;
+}
+.primary-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+}
+/* featured section here  */
+.featured {
+  margin: 150px 0;
+  text-align: center;
+}
+.featured-title {
+  width: 30%;
+  margin: 0 auto;
+}
+.heading {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 24px 0;
+}
+.sub-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.featured-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  width: 70%;
+  margin: 0 auto;
+}
+.dom-box {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.box-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.box-3 {
+  background: rgba(71, 125, 17, 0.15);
 }
