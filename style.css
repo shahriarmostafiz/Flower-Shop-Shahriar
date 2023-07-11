@@ -29,6 +29,9 @@
   background: #e55473;
   border: none;
 }
+.primary-color {
+  color: #e55473;
+}
 
 /* banner starts here  */
 .banner {
@@ -68,7 +71,7 @@
   text-align: center;
 }
 .featured-title {
-  width: 30%;
+  width: 595px;
   margin: 0 auto;
 }
 
@@ -76,7 +79,7 @@
   display: flex;
   justify-content: space-around;
   gap: 24px;
-  width: 70%;
+  width: 1440px;
   margin: 0 auto;
 }
 .dom-box {
@@ -121,7 +124,7 @@
 }
 .sale-text {
   text-align: center;
-  width: 33%;
+  width: 595px;
 }
 
 /* instagram section here  */
@@ -130,13 +133,13 @@
   margin: 128px 0;
 }
 .insta-title {
-  width: 31%;
+  width: 595px;
   text-align: center;
   margin: 0 auto;
 }
 .insta-photos {
   display: flex;
-  width: 70%;
+  width: 1440px;
   justify-content: center;
   margin: 0 auto;
   gap: 24px;
@@ -161,4 +164,37 @@
   width: 50%;
   padding: 22px;
   border-radius: 8px;
+}
+
+/* footer section here  */
+footer {
+  background-color: #111010;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-info {
+  width: 625px;
+  text-align: center;
+}
+.footer-title {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+.copyright-info {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 32px;
 }
