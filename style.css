@@ -113,6 +113,29 @@
   font-weight: 700;
   text-decoration-line: underline;
 }
+/* gift section here  */
+.gift {
+  background-image: url("./Flower Asset/new.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  padding: 150px;
+}
+.gif-info {
+  text-align: left;
+  width: 595px;
+  margin-left: 0;
+}
+.gift-heading {
+  color: #513636;
+  font-size: 60px;
+  text-align: left;
+  padding: 50px;
+}
+
 /* sale section here  */
 .sale {
   background-color: rgba(229, 84, 115, 0.05);
